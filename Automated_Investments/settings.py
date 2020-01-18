@@ -55,7 +55,7 @@ ROOT_URLCONF = 'Automated_Investments.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [os.path.join(BASE_DIR, 'templates'),],
         'APP_DIRS':[os.path.join(BASE_DIR, 'templates')],
         'OPTIONS': {
             'context_processors': [
