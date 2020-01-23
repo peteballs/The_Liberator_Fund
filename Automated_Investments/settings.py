@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'data.apps.DataConfig',
     'calculations.apps.CalculationsConfig',
     'strategies.apps.StrategiesConfig',
+    'accounts.apps.AccountsConfig',
 
 
 
