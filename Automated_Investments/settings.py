@@ -136,3 +136,4 @@ STATIC_URL = '/static/'
 STATICFILES_DIRS = [
     os.path.join(BASE_DIR, 'Automated_Investments/static')
 ]
+# +static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
