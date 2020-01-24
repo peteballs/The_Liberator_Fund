@@ -9,3 +9,6 @@ def about(request):
 
 def ai_description(request):
     return render(request, 'pages/ai_description.html')
+
+def results(request):
+    return render(request, 'pages/results.html')
