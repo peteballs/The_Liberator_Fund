@@ -6,3 +6,6 @@ def index(request):
 
 def about(request):
     return render(request, 'pages/about.html')
+
+def ai_description(request):
+    return render(request, 'pages/ai_description.html')
